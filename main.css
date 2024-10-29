@@ -1,0 +1,165 @@
+.lato-thin {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lato-black {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.lato-thin-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.lato-light-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.lato-regular-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.lato-bold-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.lato-black-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+* {
+    font-family: "Lato";
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    padding-top: 100px;
+    margin: 0px auto;
+    max-width: 960px;
+    width: 100%;
+}
+
+header {
+    background-color: rgb(31, 30, 30);
+    border-radius: 8px;
+    padding: 10px;
+    color: #fefefe;
+    display: inline-flex;
+    align-items: center;
+}
+
+header {
+    box-shadow: 2px 2px 4px rgb(10, 10, 10);
+}
+
+header img {
+    margin-right: 12px;
+    height: 58px;
+}
+
+form {
+    display: flex;
+    max-width: 700px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+form input, button {
+    text-align: center;
+    height: 40px;
+    border: none;
+}
+
+form button {
+    font-weight: bolder;
+    font-style: italic;
+    border-radius: 5px;
+    padding: 8px;
+    background-color: green;
+    color: #fefefe;
+    font-size: 20px;
+    height: 50px;
+    box-shadow: 2px 2px 4px rgb(0, 46, 0);
+}
+
+form button:hover {
+    background-color: rgb(1, 172, 1);
+    cursor: pointer;
+}
+
+form input {
+    color: #fefefe;
+    background-color: #1f1e1e ;
+    border-radius: 2px;
+    width: 200px;
+    box-shadow: 2px 2px 2px rgb(7, 7, 7);
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+body {
+    background-color: rgb(17, 17, 17);
+}
+
+table {
+    background-color: rgb(31, 30, 30);
+    box-shadow: 2px 2px 4px rgb(24, 23, 23);
+    border-radius: 4px;
+    border-spacing: 0px;
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+    margin-top: 52px;
+    color: #fefefe;
+}
+
+table th {
+    border-bottom: 2px solid rgb(173, 173, 173);
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table td {
+    padding: 16px 0px;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
